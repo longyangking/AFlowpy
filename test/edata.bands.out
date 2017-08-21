@@ -1,0 +1,77 @@
+AFLOW VERSION 31086:  [aflow.org consortium - 2003-2017] 
+REAL LATTICE
+ Real space a b c alpha beta gamma: 4.2275291804 4.2275291804 4.2275291804 60.000 60.000 60.000
+ Real space a b c alpha beta gamma: 7.9888717597 7.9888717597 7.9888717597 60.000 60.000 60.000   Bohrs/Degs 
+ Real space Volume: 53.4250
+ Real space c/a = 1.0000
+BRAVAIS LATTICE OF THE CRYSTAL (pgroup_xtal)
+ Real space: Bravais Lattice Primitive        = FCC
+ Real space: Lattice Variation                = FCC
+ Real space: Lattice System                   = cubic
+ Real space: Pearson Symbol                   = cF16
+POINT GROUP CRYSTAL
+ Real space: Crystal Family                   = cubic
+ Real space: Crystal System                   = cubic
+ Real space: Crystal Class                    = hexoctahedral
+ Real space: Point Group (Hermann Mauguin)    = m-3m
+ Real space: Point Group (Schoenflies)        = O_h
+ Real space: Point Group Orbifold             = *432
+ Real space: Point Group Type                 = centrosymmetric
+ Real space: Point Group Order                = 48
+ Real space: Point Group Structure            = 2 x symmetric
+BRAVAIS LATTICE OF THE LATTICE (pgroup)
+ Real space: Bravais Lattice Primitive        = FCC
+ Real space: Lattice Variation                = FCC
+ Real space: Lattice System                   = cubic
+SUPERLATTICE (equally decorated)
+ Real space: Bravais Superlattice Primitive   = BCC
+ Real space: Superlattice Variation           = BCC
+ Real space: Superlattice System              = cubic
+ Real space: Pearson Symbol Superlattice      = cI2
+RECIPROCAL LATTICE
+ Reciprocal space lattice:
+   -1.0509408093  1.0509408093 1.0509408093
+   1.0509408093  -1.0509408093 1.0509408093
+   1.0509408093  1.0509408093 -1.0509408093
+ Reciprocal space a b c alpha beta gamma: 1.8202828774 1.8202828774 1.8202828774 109.471 109.471 109.471
+ Reciprocal space Volume: 4.6430
+ Reciprocal lattice primitive            = BCC
+ Reciprocal lattice variation            = BCC
+SPRIM
+NO_RECURSION  [FCC,FCC,cF16] (STD_PRIM doi:10.1016/j.commatsci.2010.05.010)
+1.224745
+   0.00000000000000   2.44076511033170   2.44076511033170
+   2.44076511033170   0.00000000000000   2.44076511033170
+   2.44076511033170   2.44076511033170   0.00000000000000
+2 1 1 
+Direct(4) [A2B1C1] 
+   0.75000000000000   0.75000000000000   0.75000000000000 
+   0.25000000000000   0.25000000000000   0.25000000000000 
+   0.00000000000000   0.00000000000000   0.00000000000000 
+   0.50000000000000   0.50000000000000   0.50000000000000 
+
+SCONV
+NO_RECURSION  [CUB,CUB,cP16] (STD_CONV doi:10.1016/j.commatsci.2010.05.010)
+1.224745
+   4.88153022066339   0.00000000000000   0.00000000000000
+   0.00000000000000   4.88153022066339   0.00000000000000
+   0.00000000000000   0.00000000000000   4.88153022066339
+8 4 4 
+Direct(16) [A8B4C4] 
+   0.75000000000000   0.25000000000000   0.25000000000000 
+   0.25000000000000   0.75000000000000   0.25000000000000 
+   0.25000000000000   0.25000000000000   0.75000000000000 
+   0.75000000000000   0.75000000000000   0.75000000000000 
+   0.25000000000000   0.25000000000000   0.25000000000000 
+   0.75000000000000   0.75000000000000   0.25000000000000 
+   0.75000000000000   0.25000000000000   0.75000000000000 
+   0.25000000000000   0.75000000000000   0.75000000000000 
+   0.00000000000000   0.00000000000000   0.00000000000000 
+   0.50000000000000   0.50000000000000   0.00000000000000 
+   0.50000000000000   0.00000000000000   0.50000000000000 
+   0.00000000000000   0.50000000000000   0.50000000000000 
+   0.50000000000000   0.00000000000000   0.00000000000000 
+   0.00000000000000   0.50000000000000   0.00000000000000 
+   0.00000000000000   0.00000000000000   0.50000000000000 
+   0.50000000000000   0.50000000000000   0.50000000000000 
+

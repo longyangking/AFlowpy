@@ -8,3 +8,5 @@ material = aflowpy.descriptor(sets='AlCu_pvMn_pv',
         library='LIB3_RAW')
 
 print(material.compound)
+
+print(material.savefile())

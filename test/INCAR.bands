@@ -1,0 +1,28 @@
+SYSTEM=AlCu_pvMn_pv.T0001.A2BC
+#NBANDS=XX                                            # for hand modification
+#IALGO=48                                             # for hand modification
+#incar
+LPLANE=.TRUE.             # parallelization 
+NPAR=4                    # seems to give good results with all MPI
+NSIM=4                    # tune size vector/matrix product
+LSCALU=.FALSE.            # neglect scalapack 
+NBANDS=72                 # KBIN_XVASP_INCAR_GetNBANDS
+ISPIND=2                  # SPIN=ON
+ISPIN=2                   # SPIN=ON
+MAGMOM= 4*5               # 4 atoms 
+ISYM=2                    # SYMMMETRY=ON
+ENMAX=516.047             # 1.4*ENMAX (368.605) of pseudopotentials 
+LREAL=.FALSE.             # reciprocal space projection technique 
+EDIFF=1E-6                # high accuracy required          
+PREC=High                 # Performing RELAX_STATIC_BANDS  (aleksey)
+ISMEAR=0                  # Performing RELAX_STATIC_BANDS (put back Gauss, use 1 if metals)
+SIGMA=0.05                # Performing RELAX_STATIC_BANDS (so the DOS will not spill too much from band edges)
+ALGO=Normal               # Performing RELAX_STATIC_BANDS (stefano from ICSD)
+ISIF=2                    # Performing RELAX_STATIC_BANDS
+IBRION=2                  # Performing RELAX_STATIC_BANDS
+NSW=0                     # Performing RELAX_STATIC_BANDS
+NELM=120                  # Performing RELAX_STATIC_BANDS
+NELMIN=2                  # Performing RELAX_STATIC_BANDS
+ICHARG=11                 # Performing RELAX_STATIC_BANDS
+LCHARG=.FALSE.            # Performing RELAX_STATIC_BANDS
+LWAVE=.FALSE.             # Performing RELAX_STATIC_BANDS

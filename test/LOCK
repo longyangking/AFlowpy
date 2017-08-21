@@ -1,0 +1,493 @@
+NNNNN  KBIN LOCK ASAP for NFS concurrent jobs (aflow30431)
+XXXXX  KBIN DIRECTORY BEGIN (aflow30431)   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE Taking HOST=FULTON_MARYLOU  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE Taking KZIP_BIN="bzip2"  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  [AFLOW_MODE_MPI] found in aflow.in  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE MPI: NCPUS is overriden, taking NCPUS=12   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE MPI: START string is missing, taking START=""   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE MPI: STOP string is missing, taking STOP=""   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE MPI: found COMMAND="mpirun -np"   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE MPI: found AUTOTUNE option  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE MPI: input files WILL be auto-tuned for PARALLEL execution with 12 CPUs  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE MPI: found BINARY="mpivasp46s"   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE [AFLOW_MODE=VASP] found in aflow.in  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE Taking KBIN_BIN="vasp46s"  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE Taking  AFLOW_Mpiexec=/usr/mpi/fsl_openmpi_intel-1.4.2/bin/mpiexec -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE Taking  AFLOW_Executable_MKL=mpivasp4635_xeon_ml6_24GB_mkl_10.2.5.035 -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE KBIN_VASP_Directory Running KBIN_BIN="vasp46s"  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE Performing loop directory = /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE POSCAR  generation EXPLICIT file from aflow.in with START/STOP   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE POSCAR  CONVERT_UNIT_CELL=SPRIM,MINK /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE POSCAR  STANDARD_PRIMITIVE Unit Cell  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:48 2012
+00000  MESSAGE POSCAR  STANDARD_PRIMITIVE Unit Cell Lattice = [FCC,FCC,cF16]   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE POSCAR  FORCE Volume *= 1.05  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE POSCAR  FORCE Old Volume= 55.4646  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE POSCAR  FORCE New Volume= 58.2378  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE INCAR   generation in /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE INCAR   generation EXPLICIT file from aflow.in with START/STOP   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE POTCAR  generation IMPLICIT file from aflow.in  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE Option [VASP_FORCE_OPTION]AUTO_PSEUDOPOTENTIALS -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE Option [VASP_FORCE_OPTION]AUTO_PSEUDOPOTENTIALS="potpaw_PBE" -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE POTCAR  Loading potcar file = [potpaw_PBE/Al]
+00000  MESSAGE POTCAR  Loading potcar file = [potpaw_PBE/Cu_pv]
+00000  MESSAGE POTCAR  Loading potcar file = [potpaw_PBE/Mn_pv]
+00000  MESSAGE POTCAR  Found potcar file = [/fslhome/fslcollab8/group/VASP/potpaw_PBE/Al/POTCAR]
+00000  MESSAGE POTCAR  Found potcar file = [/fslhome/fslcollab8/group/VASP/potpaw_PBE/Cu_pv/POTCAR]
+00000  MESSAGE POTCAR  Found potcar file = [/fslhome/fslcollab8/group/VASP/potpaw_PBE/Mn_pv/POTCAR]
+00000  MESSAGE POTCAR  ENMAX found = 240.3 /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE POTCAR  ENMAX found = 368.605 /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE POTCAR  ENMAX found = 269.865 /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE POTCAR  ENMAX max   = 368.605 -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE POTCAR  PAW = TRUE -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE KPOINTS generation IMPLICIT file from aflow.in  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE KPOINTS_KSCHEME=Monkhorst-Pack  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE KPOINTS KPPRA=6000  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE KPOINTS KPPRA minimizing k=[1,1,1]=1 =[1.7687,1.7687,1.7687]   dk=1.7687
+00000  MESSAGE KPOINTS KPPRA minimizing k=[2,2,2]=8 =[0.88435,0.88435,0.88435]   dk=0.88417
+00000  MESSAGE KPOINTS KPPRA minimizing k=[3,3,3]=27 =[0.58956,0.58956,0.58956]   dk=0.58901
+00000  MESSAGE KPOINTS KPPRA minimizing k=[4,4,4]=64 =[0.44217,0.44217,0.44217]   dk=0.442
+00000  MESSAGE KPOINTS KPPRA minimizing k=[5,5,5]=125 =[0.35374,0.35374,0.35374]   dk=0.35361
+00000  MESSAGE KPOINTS KPPRA minimizing k=[6,6,6]=216 =[0.29478,0.29478,0.29478]   dk=0.29474
+00000  MESSAGE KPOINTS KPPRA minimizing k=[7,7,7]=343 =[0.25267,0.25267,0.25267]   dk=0.25265
+00000  MESSAGE KPOINTS KPPRA minimizing k=[8,8,8]=512 =[0.22109,0.22109,0.22109]   dk=0.22095
+00000  MESSAGE KPOINTS KPPRA minimizing k=[9,9,9]=729 =[0.19652,0.19652,0.19652]   dk=0.19635
+00000  MESSAGE KPOINTS KPPRA minimizing k=[10,10,10]=1000 =[0.17687,0.17687,0.17687]   dk=0.17677
+00000  MESSAGE KPOINTS KPPRA minimizing k=[11,11,11]=1331 =[0.16079,0.16079,0.16079]   dk=0.16074
+00000  MESSAGE KPOINTS KPPRA minimizing k=[12,12,12]=1728 =[0.14739,0.14739,0.14739]   dk=0.14734
+00000  MESSAGE KPOINTS KPPRA routine [12,12,12]=1728=[0.14739,0.14739,0.14739]   
+00000  MESSAGE KPOINTS KPPRA routine [12,12,12]=1728=[0.14739,0.14739,0.14739]   
+00000  MESSAGE KPOINTS KSHIFT= X X X  is missing, taking X X X = 0.0 0.0 0.0  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE KPOINTS K=[12 12 12]  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE KPOINTS Kpoints=6912  [KPPRA=6000]    with Monkhorst-Pack    /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE INCAR-MPI: found AUTOTUNE option  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE INCAR-MPI: input files WILL be auto-tuned for PARALLEL execution with 12 CPUs  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE Option [VASP_FORCE_OPTION]RELAX_ALL -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE Option [VASP_FORCE_OPTION]RELAX_MODE=ENERGY (default) -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE Option [VASP_FORCE_OPTION]NBANDS -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE Option [VASP_FORCE_OPTION]SPIN=ON -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE Option [VASP_FORCE_OPTION]SPIN=REMOVE_RELAX_1 -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE-DEFAULT LSCOUPLING=0 -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE Option [VASP_FORCE_OPTION]SYM=ON -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE-DEFAULT WAVECAR=0 -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE-DEFAULT CHGCAR=1 -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE Option [VASP_FORCE_OPTION]PREC=HIGH -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE Option [VASP_FORCE_OPTION]ALGO=FAST -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE Option [VASP_FORCE_OPTION]TYPE=DEFAULT -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE Option [VASP_FORCE_OPTION]SKIP_NOMIX (NEGLECT_NOMIX, NEGLECT_IMMISCIBLE) -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE Running system: AlCuMn is unknown (aflow_nomix.cpp) -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE PGROUP Symmetry: BEGIN  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE PGROUP Symmetry: inside sphere, dimensions = [3,3,3]   radius=8.56131   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE PGROUP Symmetry: found 78 vectors inside radius /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE PGROUP unity I        theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM= 1    S= 1
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=( 0.0000e+00 -7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP rotation       theta=180  r=( 0.0000e+00  7.0711e-01  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= m    S= s
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=(-7.0711e-01  7.0711e-01  0.0000e+00)    HM=-2    S=S2
+00000  MESSAGE PGROUP rotation       theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP rotoinversion  theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP rotation       theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP rotation       theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=(-7.0711e-01  0.0000e+00  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP rotation       theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP rotoinversion  theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP rotation       theta=180  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=( 0.0000e+00  7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP inversion -I   theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM=-1    S= i
+00000  MESSAGE PGROUP rotation       theta=180  r=( 0.0000e+00 -7.0711e-01  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotoinversion  theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP rotoinversion  theta=270  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP rotation       theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP rotation       theta=180  r=( 7.0711e-01  7.0711e-01  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotation       theta=180  r=( 7.0711e-01  0.0000e+00  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotation       theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP rotoinversion  theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP rotoinversion  theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP rotation       theta=180  r=(-7.0711e-01  7.0711e-01  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotoinversion  theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP rotoinversion  theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP rotation       theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP rotation       theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= m    S= s
+00000  MESSAGE PGROUP rotation       theta=180  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotoinversion  theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP rotoinversion  theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP rotation       theta=180  r=(-7.0711e-01  0.0000e+00  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotation       theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP rotoinversion  theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= m    S= s
+00000  MESSAGE PGROUP rotation       theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP rotoinversion  theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP rotation       theta=180  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotoinversion  theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=( 7.0711e-01  0.0000e+00  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP rotation       theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP rotation       theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP rotation       theta=270  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP rotation       theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=( 7.0711e-01  7.0711e-01  0.0000e+00)    HM=-2    S=S2
+00000  MESSAGE PGROUP rotoinversion  theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP Symmetry: unique point group operations 48
+00000  MESSAGE PGROUP Symmetry: END 
+00000  MESSAGE PGROUP Symmetry: writing BEGIN  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE PGROUP Symmetry: writing END  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE FGROUP Symmetry: BEGIN  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE FGROUP Symmetry: generating translations 
+00000  MESSAGE FGROUP Symmetry: found test translations = 2
+00000  MESSAGE FGROUP unity I        theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=180  r=( 0.0000e+00 -7.0711e-01  7.0711e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotation       theta=180  r=( 0.0000e+00  7.0711e-01  7.0711e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=180  r=(-1.0000e+00  0.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=180  r=(-7.0711e-01  7.0711e-01  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotation       theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotation       theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotation       theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=180  r=(-7.0711e-01  0.0000e+00  7.0711e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotation       theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotation       theta=180  r=(-1.0000e+00  0.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=180  r=( 0.0000e+00  7.0711e-01  7.0711e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP inversion -I   theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotation       theta=180  r=( 0.0000e+00 -7.0711e-01  7.0711e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=270  r=( 0.0000e+00  0.0000e+00  1.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotation       theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotation       theta=180  r=( 7.0711e-01  7.0711e-01  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotation       theta=180  r=( 7.0711e-01  0.0000e+00  7.0711e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotation       theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotation       theta=180  r=(-7.0711e-01  7.0711e-01  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotation       theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotation       theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=180  r=( 0.0000e+00  0.0000e+00  1.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotation       theta=180  r=( 0.0000e+00  1.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotation       theta=180  r=(-7.0711e-01  0.0000e+00  7.0711e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotation       theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=180  r=( 0.0000e+00  1.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotation       theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotation       theta=180  r=( 0.0000e+00  0.0000e+00  1.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=180  r=( 7.0711e-01  0.0000e+00  7.0711e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotation       theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotation       theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotation       theta=270  r=( 0.0000e+00  0.0000e+00  1.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP rotation       theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=180  r=( 7.0711e-01  7.0711e-01  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  0 1 2 3 
+00000  MESSAGE FGROUP rotoinversion  theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)  1 0 2 3 
+00000  MESSAGE FGROUP Symmetry: unique factor group operations 48
+00000  MESSAGE FGROUP Symmetry: END 
+00000  MESSAGE FGROUP Symmetry: writing BEGIN  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE FGROUP Symmetry: writing END  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE PGROUP_CRYSTAL Symmetry: BEGIN  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE PGROUP_XTAL ---------------------------------------------------------------------------
+00000  MESSAGE PGROUP_XTAL unity I        theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM= 1    S= 1
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=180  r=( 0.0000e+00 -7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP_XTAL rotation       theta=180  r=( 0.0000e+00  7.0711e-01  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=180  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= m    S= s
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=180  r=(-7.0711e-01  7.0711e-01  0.0000e+00)    HM=-2    S=S2
+00000  MESSAGE PGROUP_XTAL rotation       theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP_XTAL rotation       theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP_XTAL rotation       theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=180  r=(-7.0711e-01  0.0000e+00  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP_XTAL rotation       theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP_XTAL rotation       theta=180  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=180  r=( 0.0000e+00  7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP_XTAL inversion -I   theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM=-1    S= i
+00000  MESSAGE PGROUP_XTAL rotation       theta=180  r=( 0.0000e+00 -7.0711e-01  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=270  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_XTAL rotation       theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_XTAL rotation       theta=180  r=( 7.0711e-01  7.0711e-01  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE PGROUP_XTAL rotation       theta=180  r=( 7.0711e-01  0.0000e+00  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUP_XTAL rotation       theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP_XTAL rotation       theta=180  r=(-7.0711e-01  7.0711e-01  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP_XTAL rotation       theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_XTAL rotation       theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=180  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= m    S= s
+00000  MESSAGE PGROUP_XTAL rotation       theta=180  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP_XTAL rotation       theta=180  r=(-7.0711e-01  0.0000e+00  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUP_XTAL rotation       theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=180  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= m    S= s
+00000  MESSAGE PGROUP_XTAL rotation       theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_XTAL rotation       theta=180  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 2    S=C2
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=180  r=( 7.0711e-01  0.0000e+00  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP_XTAL rotation       theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_XTAL rotation       theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP_XTAL rotation       theta=270  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP_XTAL rotation       theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=180  r=( 7.0711e-01  7.0711e-01  0.0000e+00)    HM=-2    S=S2
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP_XTAL ---------------------------------------------------------------------------
+00000  MESSAGE PGROUP_XTAL Symmetry: unique point group operations 48
+00000  MESSAGE PGROUP_XTAL Symmetry: 1 m 2 m m 3 -3 4 3 m 4 -3 2 m -1 2 -3 -4 3 2 2 3 -4 -3 2 -4 -3 3 4 m 2 -4 -3 2 3 -4 m 4 -4 2 -3 m 3 4 4 3 m -3
+00000  MESSAGE PGROUP_XTAL Symmetry: Crystal Family = cubic
+00000  MESSAGE PGROUP_XTAL Symmetry: Crystal System = cubic
+00000  MESSAGE PGROUP_XTAL Symmetry: Crystal Class = hexoctahedral
+00000  MESSAGE PGROUP_XTAL Symmetry: Schoenflies notation = O_h
+00000  MESSAGE PGROUP_XTAL Symmetry: Hermann Mauguin notation = m-3m
+00000  MESSAGE PGROUP_XTAL Symmetry: Orbifold = *432
+00000  MESSAGE PGROUP_XTAL Symmetry: Point Group Type = centrosymmetric
+00000  MESSAGE PGROUP_XTAL Symmetry: Point Group Order = 48
+00000  MESSAGE PGROUP_XTAL Symmetry: Point Group Structure = 2 x symmetric
+00000  MESSAGE PGROUP_XTAL ---------------------------------------------------------------------------
+00000  MESSAGE PGROUP_XTAL Symmetry: END 
+00000  MESSAGE PGROUP_XTAL ---------------------------------------------------------------------------
+00000  MESSAGE PGROUP_XTAL Symmetry: writing BEGIN  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE PGROUP_XTAL Symmetry: writing END  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE POSCAR SGROUP: Default RADIUS=3  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE SGROUP Symmetry: BEGIN  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE SGROUP Symmetry: inside sphere (radius=3, dims = [2,2,2])  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:49 2012
+00000  MESSAGE SGROUP Symmetry: unique space group operations 6000
+00000  MESSAGE SGROUP Symmetry: END 
+00000  MESSAGE IATOMS ATOMS:  BEGIN  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:50 2012
+00000  MESSAGE IATOMS ATOMS: number of inequivalent atoms = 3   
+00000  MESSAGE IATOMS ATOMS: [00] 0 1 
+00000  MESSAGE IATOMS ATOMS: [02] 2 
+00000  MESSAGE IATOMS ATOMS: [03] 3 
+00000  MESSAGE IATOMS ATOMS: END 
+00000  MESSAGE IATOMS Symmetry: writing BEGIN  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:50 2012
+00000  MESSAGE IATOMS Symmetry: writing END  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:50 2012
+00000  MESSAGE AGROUP Symmetry: BEGIN  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:50 2012
+00000  MESSAGE AGROUP ---------------------------------------------------------------------------
+00000  MESSAGE AGROUP [site=00] ineq atom #=0
+00000  MESSAGE AGROUP [site=00] unity I        theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM= 1    S= 1
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=180  r=( 0.0000e+00 -7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=00] rotation       theta=180  r=( 0.0000e+00  7.0711e-01  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=180  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= m    S= s
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=180  r=(-7.0711e-01  7.0711e-01  0.0000e+00)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=00] rotation       theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=00] rotation       theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=00] rotation       theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=180  r=(-7.0711e-01  0.0000e+00  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=00] rotation       theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=00] rotation       theta=180  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=180  r=( 0.0000e+00  7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=00] inversion -I   theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM=-1    S= i
+00000  MESSAGE AGROUP [site=00] rotation       theta=180  r=( 0.0000e+00 -7.0711e-01  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=270  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=00] rotation       theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=00] rotation       theta=180  r=( 7.0711e-01  7.0711e-01  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=00] rotation       theta=180  r=( 7.0711e-01  0.0000e+00  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=00] rotation       theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=00] rotation       theta=180  r=(-7.0711e-01  7.0711e-01  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=00] rotation       theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=00] rotation       theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=180  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= m    S= s
+00000  MESSAGE AGROUP [site=00] rotation       theta=180  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=00] rotation       theta=180  r=(-7.0711e-01  0.0000e+00  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=00] rotation       theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=180  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= m    S= s
+00000  MESSAGE AGROUP [site=00] rotation       theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=00] rotation       theta=180  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=180  r=( 7.0711e-01  0.0000e+00  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=00] rotation       theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=00] rotation       theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=00] rotation       theta=270  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=00] rotation       theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=180  r=( 7.0711e-01  7.0711e-01  0.0000e+00)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=00] unique site point group operations 48 (#pg=48)  
+00000  MESSAGE AGROUP ---------------------------------------------------------------------------
+00000  MESSAGE AGROUP [site=02] ineq atom #=1
+00000  MESSAGE AGROUP [site=02] unity I        theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM= 1    S= 1
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=180  r=( 0.0000e+00 -7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=02] rotation       theta=180  r=( 0.0000e+00  7.0711e-01  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=180  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= m    S= s
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=180  r=(-7.0711e-01  7.0711e-01  0.0000e+00)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=02] rotation       theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=02] rotation       theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=02] rotation       theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=180  r=(-7.0711e-01  0.0000e+00  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=02] rotation       theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=02] rotation       theta=180  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=180  r=( 0.0000e+00  7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=02] inversion -I   theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM=-1    S= i
+00000  MESSAGE AGROUP [site=02] rotation       theta=180  r=( 0.0000e+00 -7.0711e-01  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=270  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=02] rotation       theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=02] rotation       theta=180  r=( 7.0711e-01  7.0711e-01  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=02] rotation       theta=180  r=( 7.0711e-01  0.0000e+00  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=02] rotation       theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=02] rotation       theta=180  r=(-7.0711e-01  7.0711e-01  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=02] rotation       theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=02] rotation       theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=180  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= m    S= s
+00000  MESSAGE AGROUP [site=02] rotation       theta=180  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=02] rotation       theta=180  r=(-7.0711e-01  0.0000e+00  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=02] rotation       theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=180  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= m    S= s
+00000  MESSAGE AGROUP [site=02] rotation       theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=02] rotation       theta=180  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=180  r=( 7.0711e-01  0.0000e+00  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=02] rotation       theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=02] rotation       theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=02] rotation       theta=270  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=02] rotation       theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=180  r=( 7.0711e-01  7.0711e-01  0.0000e+00)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=02] rotoinversion  theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=02] unique site point group operations 48 (#pg=48)  
+00000  MESSAGE AGROUP ---------------------------------------------------------------------------
+00000  MESSAGE AGROUP [site=03] ineq atom #=2
+00000  MESSAGE AGROUP [site=03] unity I        theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM= 1    S= 1
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=180  r=( 0.0000e+00 -7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=03] rotation       theta=180  r=( 0.0000e+00  7.0711e-01  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=180  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= m    S= s
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=180  r=(-7.0711e-01  7.0711e-01  0.0000e+00)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=03] rotation       theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=03] rotation       theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=03] rotation       theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=180  r=(-7.0711e-01  0.0000e+00  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=03] rotation       theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=03] rotation       theta=180  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=180  r=( 0.0000e+00  7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=03] inversion -I   theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM=-1    S= i
+00000  MESSAGE AGROUP [site=03] rotation       theta=180  r=( 0.0000e+00 -7.0711e-01  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=270  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=03] rotation       theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=03] rotation       theta=180  r=( 7.0711e-01  7.0711e-01  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=03] rotation       theta=180  r=( 7.0711e-01  0.0000e+00  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=03] rotation       theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=03] rotation       theta=180  r=(-7.0711e-01  7.0711e-01  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=03] rotation       theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=03] rotation       theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=180  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= m    S= s
+00000  MESSAGE AGROUP [site=03] rotation       theta=180  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=03] rotation       theta=180  r=(-7.0711e-01  0.0000e+00  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=03] rotation       theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=180  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= m    S= s
+00000  MESSAGE AGROUP [site=03] rotation       theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=03] rotation       theta=180  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=180  r=( 7.0711e-01  0.0000e+00  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=03] rotation       theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=03] rotation       theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=03] rotation       theta=270  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 4    S=C4
+00000  MESSAGE AGROUP [site=03] rotation       theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=180  r=( 7.0711e-01  7.0711e-01  0.0000e+00)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=03] rotoinversion  theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE AGROUP [site=03] unique site point group operations 48 (#pg=48)  
+00000  MESSAGE AGROUP ---------------------------------------------------------------------------
+00000  MESSAGE AGROUP number of inequivalent atoms = 3   
+00000  MESSAGE AGROUP [00] 0(48) 1(48) 
+00000  MESSAGE AGROUP [02] 2(48) 
+00000  MESSAGE AGROUP [03] 3(48) 
+00000  MESSAGE AGROUP Symmetry: END  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:50 2012
+00000  MESSAGE AGROUP Symmetry: writing BEGIN  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:50 2012
+00000  MESSAGE AGROUP Symmetry: writing END  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:50 2012
+00000  MESSAGE RELAX_STATIC_BANDS Running [nrelax=2]   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:50 2012
+00000  MESSAGE MODE= (RELAX_STATIC_BANDS) - /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ -  - glh43 - m6-8-6.local - Fri Aug 10 16:57:50 2012
+11111  RELAXATION (RELAX_STATIC_BANDS) - /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - K=[12 12 12] - vasp46s -  - glh43 - m6-8-6.local - Fri Aug 10 16:57:50 2012
+00000  MESSAGE MPI PARALLEL job - [4atoms] -  MPI=12CPUs   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:50 2012
+00000  MESSAGE FULTON_MARYLOU MPI PARALLEL job - [4atoms] -  MPI=12CPUs   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:50 2012
+00000  MESSAGE FULTON_MARYLOU Executing: /usr/mpi/fsl_openmpi_intel-1.4.2/bin/mpiexec /fslgroup/fslg_datamining/bin/mpivasp4635_xeon_ml6_24GB_mkl_10.2.5.035 >> vasp.out  - /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 16:57:50 2012
+MMMMM  MESSAGE message_reached_accuracy=1
+00000  MESSAGE RESULT SPIN=0.642125 -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:23:00 2012
+22222  RELAXATION (RELAX_STATIC_BANDS) - /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - K=[12 12 12] - vasp46s -  - glh43 - m6-8-6.local - Fri Aug 10 17:23:00 2012
+00000  MESSAGE MPI PARALLEL job - [4atoms] -  MPI=12CPUs   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:23:00 2012
+00000  MESSAGE FULTON_MARYLOU MPI PARALLEL job - [4atoms] -  MPI=12CPUs   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:23:00 2012
+00000  MESSAGE FULTON_MARYLOU Executing: /usr/mpi/fsl_openmpi_intel-1.4.2/bin/mpiexec /fslgroup/fslg_datamining/bin/mpivasp4635_xeon_ml6_24GB_mkl_10.2.5.035 >> vasp.out  - /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:23:00 2012
+MMMMM  MESSAGE message_reached_accuracy=1
+00000  MESSAGE RESULT SPIN=0.641725 -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:04 2012
+00000  MESSAGE Patching POSCAR   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:04 2012
+00000  MESSAGE WARNING RECALCULATING STANDARD STRUCTURE -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:04 2012
+00000  MESSAGE BEFORE: a,b,c,alpha,beta,gamma 3.39608,3.39608,3.39608,60,60,60
+00000  MESSAGE BEFORE: lattice: AUTO
+00000  MESSAGE AFTER: a,b,c,alpha,beta,gamma 3.45176,3.45176,3.45176,60,60,60
+00000  MESSAGE AFTER: lattice: FCC
+00000  MESSAGE Patching KPOINTS   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+00000  MESSAGE KPOINTS generation IMPLICIT file from aflow.in  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+00000  MESSAGE KPOINTS_STATIC_KPPRA overrides KPOINTS_KPPRA generation IMPLICIT file from aflow.in  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+00000  MESSAGE KPOINTS_STATIC_KPPRA: LOCAL_KBIN_VASP_KPOINTS_KPPRA_FLAG=1 -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+00000  MESSAGE KPOINTS_STATIC_KPPRA: LOCAL_KBIN_VASP_KPOINTS_KPPRA_VALUE=10000 -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+00000  MESSAGE KPOINTS_STATIC_KSCHEME overrides KPOINTS_KSCHEME generation IMPLICIT file from aflow.in  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+00000  MESSAGE KPOINTS_STATIC_KSCHEME: LOCAL_KBIN_VASP_KPOINTS_KSCHEME_FLAG=1 -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+00000  MESSAGE KPOINTS_STATIC_KSCHEME: LOCAL_KBIN_VASP_KPOINTS_KSCHEME_VALUE=M -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+00000  MESSAGE KPOINTS_STATIC_KSCHEME=Monkhorst-Pack  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+00000  MESSAGE KPOINTS_STATIC KPPRA=10000  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+00000  MESSAGE KPOINTS KPPRA minimizing k=[1,1,1]=1 =[1.8203,1.8203,1.8203]   dk=1.8203
+00000  MESSAGE KPOINTS KPPRA minimizing k=[2,2,2]=8 =[0.91014,0.91014,0.91014]   dk=0.90996
+00000  MESSAGE KPOINTS KPPRA minimizing k=[3,3,3]=27 =[0.60676,0.60676,0.60676]   dk=0.60619
+00000  MESSAGE KPOINTS KPPRA minimizing k=[4,4,4]=64 =[0.45507,0.45507,0.45507]   dk=0.45489
+00000  MESSAGE KPOINTS KPPRA minimizing k=[5,5,5]=125 =[0.36406,0.36406,0.36406]   dk=0.36392
+00000  MESSAGE KPOINTS KPPRA minimizing k=[6,6,6]=216 =[0.30338,0.30338,0.30338]   dk=0.30334
+00000  MESSAGE KPOINTS KPPRA minimizing k=[7,7,7]=343 =[0.26004,0.26004,0.26004]   dk=0.26002
+00000  MESSAGE KPOINTS KPPRA minimizing k=[8,8,8]=512 =[0.22754,0.22754,0.22754]   dk=0.2274
+00000  MESSAGE KPOINTS KPPRA minimizing k=[9,9,9]=729 =[0.20225,0.20225,0.20225]   dk=0.20208
+00000  MESSAGE KPOINTS KPPRA minimizing k=[10,10,10]=1000 =[0.18203,0.18203,0.18203]   dk=0.18193
+00000  MESSAGE KPOINTS KPPRA minimizing k=[11,11,11]=1331 =[0.16548,0.16548,0.16548]   dk=0.16543
+00000  MESSAGE KPOINTS KPPRA minimizing k=[12,12,12]=1728 =[0.15169,0.15169,0.15169]   dk=0.15164
+00000  MESSAGE KPOINTS KPPRA minimizing k=[13,13,13]=2197 =[0.14002,0.14002,0.14002]   dk=0.13998
+00000  MESSAGE KPOINTS KPPRA minimizing k=[14,14,14]=2744 =[0.13002,0.13002,0.13002]   dk=0.12999
+00000  MESSAGE KPOINTS KPPRA routine [14,14,14]=2744=[0.13002,0.13002,0.13002]   
+00000  MESSAGE KPOINTS_STATIC KPPRA routine [14,14,14]=2744=[0.13002,0.13002,0.13002]   
+00000  MESSAGE KPOINTS_STATIC KSHIFT= X X X  is missing, taking X X X = 0.0 0.0 0.0  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+00000  MESSAGE KPOINTS_STATIC K=[14 14 14]  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+00000  MESSAGE KPOINTS_STATIC Kpoints=10976  [KPPRA=10000]    with Monkhorst-Pack    /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+00000  MESSAGE [RELAX_STATIC_BANDS] Patching INCAR (static_patching)  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+33333  STATIC (RELAX_STATIC_BANDS) - /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - K=[14 14 14] - vasp46s -  - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+00000  MESSAGE MPI PARALLEL job - [4atoms] -  MPI=12CPUs   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+00000  MESSAGE FULTON_MARYLOU MPI PARALLEL job - [4atoms] -  MPI=12CPUs   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+00000  MESSAGE FULTON_MARYLOU Executing: /usr/mpi/fsl_openmpi_intel-1.4.2/bin/mpiexec /fslgroup/fslg_datamining/bin/mpivasp4635_xeon_ml6_24GB_mkl_10.2.5.035 >> vasp.out  - /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:35:05 2012
+00000  MESSAGE RESULT SPIN=0.630075 -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:49:15 2012
+00000  MESSAGE Patching KPOINTS with BANDS LATTICE = "FCC" -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:49:15 2012
+00000  MESSAGE [RELAX_STATIC_BANDS] Patching INCAR (bands_patching)  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:49:15 2012
+44444  BANDS (RELAX_STATIC_BANDS) - /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - K=[FCC,20] -  - glh43 - m6-8-6.local - Fri Aug 10 17:49:15 2012
+00000  MESSAGE MPI PARALLEL job - [4atoms] -  MPI=12CPUs   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:49:15 2012
+00000  MESSAGE FULTON_MARYLOU MPI PARALLEL job - [4atoms] -  MPI=12CPUs   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:49:15 2012
+00000  MESSAGE FULTON_MARYLOU Executing: /usr/mpi/fsl_openmpi_intel-1.4.2/bin/mpiexec /fslgroup/fslg_datamining/bin/mpivasp4635_xeon_ml6_24GB_mkl_10.2.5.035 >> vasp.out  - /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:49:15 2012
+00000  MESSAGE RESULT SPIN=0.630075 -  /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:54:06 2012
+55555  END (RELAX_STATIC_BANDS)        - /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ -  - glh43 - m6-8-6.local - Fri Aug 10 17:54:06 2012
+XXXXX  KBIN DIRECTORY END (aflow30431)   /fslhome/fslcollab8/LIBS/MAGNETIC/LIB/AlCu_pvMn_pv/T0001.A2BC/ - glh43 - m6-8-6.local - Fri Aug 10 17:54:16 2012
