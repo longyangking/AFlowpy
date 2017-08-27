@@ -9,4 +9,8 @@ material = aflowpy.descriptor(sets='AlCu_pvMn_pv',
 
 print(material.compound)
 
-print(material.savefile())
+print('Supported Properties:')
+for i in range(len(material.supported_properties)):
+        print('{num}th: {property}'.format(num=i,property=material.supported_properties[i]))
+
+#print(material.savefile()) # Download all files from AFlowlib.org

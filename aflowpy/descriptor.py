@@ -1,10 +1,35 @@
 import json
+import warnings
 from urllib.request import urlopen
+
+__author__ = "Yang Long"
+__version__ = "0.1"
+__email__="longyang_123@yeah.net"
 
 SERVER='http://aflowlib.duke.edu'
 PROJECT='AFLOWDATA'
 
 class descriptor:
+    supported_properties = ('aurl','auid','data_api','data_source','loop',
+            'code','compound','prototype','nspecies','natoms','composition',
+            'density','scintillation_attenuation_length','stoichiometry',
+            'species','species_pp','dft_type','species_pp_version',
+            'species_pp_ZVAL','valence_cell_iupac','valence_cell_std',
+            'volume_cell','volume_atom','pressure','stress_tensor',
+            'pressure_residual','Pulay_stress','geometry','Egap','Egap_fit',
+            'Egap_type','energy_cell','energy_atom','energy_cutoff',
+            'delta_electronic_energy_convergence','delta_electronic_energy_threshold',
+            'kpoints','enthalpy_atom','enthalpy_cell','eentropy_atom','eentropy_cell',
+            'enthalpy_formation_atom','enthalpy_formation_cell','entropic_temperature',
+            'PV_cell','PV_atom','spin_atom','spin_cell','spinF','spinD','stoich',
+            'calculation_time','calculation_memory','calculation_cores','nbondxx',
+            'sg','sg2','spacegroup_orig','spacegroup_relax','forces',
+            'positions_cartesian','positions_fractional','Bravais_lattice_orig',
+            'lattice_variation_orig','lattice_system_orig','Pearson_symbol_orig',
+            'Bravais_lattice_relax','lattice_variation_relax','lattice_system_relax',
+            'Pearson_symbol_relax','files','aflow_version','catalog','aflowlib_version',
+            'aflowlib_date','aapi','keywords')
+
     def __init__(self,sets,calculations,library,SERVER=SERVER,PROJECT=PROJECT):
         self.sets = sets
         self.calculations = calculations 
@@ -84,6 +109,7 @@ class descriptor:
         self.Bravais_lattice_relax = entries['Bravais_lattice_relax']
         self.lattice_variation_relax = entries['lattice_variation_relax']
         self.lattice_system_relax = entries['lattice_system_relax']
+        self.Pearson_symbol_relax = entries['Pearson_symbol_relax']
         self.aflow_version = entries['aflow_version']
         self.catalog = entries['catalog']
         self.aflowlib_version = entries['aflowlib_version']
